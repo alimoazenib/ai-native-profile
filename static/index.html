@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پروفایل هوشمند علی مؤذنی | AI-Native Profile</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="layout">
+        <main class="chat-container">
+            <header class="header">
+                <div class="avatar">AM</div>
+                <div>
+                    <h1>صفحه شخصی هوشمند علی مؤذنی</h1>
+                    <p class="subtitle">دانشجوی مهندسی کامپیوتر دانشگاه صنعتی شریف</p>
+                </div>
+            </header>
+
+            <div class="quick-prompts">
+                <button onclick="setPrompt('به طور خلاصه پروژه شبیه‌ساز چراغ راهنمایی رو توضیح بده.')">خلاصه پروژه چراغ راهنمایی</button>
+                <button onclick="setPrompt('بر اساس دروسی که گذراندی چه منابعی را برای مطالعه پیشنهاد می‌دهی؟')">پیشنهاد منابع مطالعه</button>
+                <button onclick="setPrompt('ما به دنبال مهندس دوآپس مسلط به لینوکس و پایتون هستیم، آیا شما برای این موقعیت مناسب هستید؟')">ارزیابی انطباق شغلی</button>
+                <button onclick="setPrompt('معدل تو در ترم گذشته چند شده است؟')">درخواست نمره (تست امتناع)</button>
+                <button onclick="setPrompt('در مورد پروژه‌‌ات توضیح بده')">سؤال کلی (تست شفاف‌سازی)</button>
+                <button onclick="setPrompt('آخرین ریپازیتوری‌های گیت‌هابت را بهم نمایش بده')">استعلام زنده از GitHub API</button>
+            </div>
+
+            <div id="chat-messages" class="chat-messages">
+                <div class="message assistant">
+                    سلام! من دستیار هوشمند این صفحه هستم. تمامی اطلاعات من بر اساس سوابق درسی و رزومه علی مؤذنی می‌باشد و من در نقش ایشان پاسخگو به سوالات شما در مورد این سوابق هستم. بفرمایید چطور می‌توانم کمکتان کنم؟
+                </div>
+            </div>
+
+            <form id="chat-form" class="chat-input-area">
+                <input type="text" id="user-input" placeholder="سؤال خود را به فارسی بنویسید..." autocomplete="off" required>
+                <button type="submit" id="send-btn">ارسال</button>
+            </form>
+        </main>
+
+        <aside class="explainability-panel">
+            <div>
+                <h2>🔍 ردگیری شفافیت (Explainability)</h2>
+                <p class="explain-desc">مشاهده در لحظه نحوه تصمیم‌گیری مدل و واکشی فیلدها</p>
+            </div>
+
+            <div class="trace-card">
+                <div class="trace-item">
+                    <span class="trace-label">هدف شناسایی‌شده (Intent):</span>
+                    <span id="trace-intent" class="badge">---</span>
+                </div>
+                <div class="trace-item">
+                    <span class="trace-label">قابلیت اجراشده (Capability):</span>
+                    <span id="trace-capability" class="badge">---</span>
+                </div>
+                <div class="trace-item">
+                    <span class="trace-label">سرویس متصل خارجی (API):</span>
+                    <span id="trace-external" class="badge">None</span>
+                </div>
+                <div class="trace-item full">
+                    <span class="trace-label">فیلدهای خوانده‌شده از دیتا:</span>
+                    <ul id="trace-fields" class="field-list">
+                        <li>هنوز درخواستی ارسال نشده است.</li>
+                    </ul>
+                </div>
+                <div class="trace-item full" id="missing-box" style="display:none;">
+                    <span class="trace-label alert">موارد ناموجود یا محرمانه:</span>
+                    <ul id="trace-missing" class="field-list alert"></ul>
+                </div>
+            </div>
+
+            <div id="creativity-box" class="creativity-box" style="display:none;">
+                <h3>📊 تحلیل انطباق مهارت‌ها (Job Fit Analysis)</h3>
+                <div class="score-container">
+                    <span>امتیاز تطابق:</span>
+                    <strong id="match-score">0%</strong>
+                </div>
+                <div id="matched-skills" class="skills-tag"></div>
+            </div>
+
+            <div class="footer-links">
+                <a href="/api/profile/raw" target="_blank">مشاهده فایل داده‌های رسمی (profile.json) ↗</a>
+            </div>
+        </aside>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

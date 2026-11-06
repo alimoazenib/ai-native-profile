@@ -1,0 +1,189 @@
+{
+  "personal_info": {
+    "name": "علی مؤذنی",
+    "role": "دانشجوی مهندسی کامپیوتر دانشگاه صنعتی شریف و توسعه‌دهنده نرم‌افزار",
+    "bio": "علاقه‌مند به سیستم‌های هوش مصنوعی، تحلیل ترافیک شبکه، پایپ‌لاین‌های جمع‌آوری و پردازش داده، و شبیه‌سازی سیستم‌های دیجیتال.",
+    "location": "تهران، ایران",
+    "education": {
+      "institution": "دانشگاه صنعتی شریف",
+      "degree": "کارشناسی مهندسی کامپیوتر",
+      "status": "دانشجوی مقطع کارشناسی"
+    }
+  },
+  "courses": [
+    {
+      "code": "40244",
+      "title": "برنامه‌سازی پیشرفته (Advanced Programming)",
+      "credits": 3,
+      "topics": [
+        "برنامه‌نویسی شیءگرا با جاوا (کلاس‌ها، اشیاء، وراثت، چندریختی، اینترفیس‌ها)",
+        "تضمین کیفیت و آزمون نرم‌افزار (Unit Testing با JUnit و Mocking)",
+        "الگوهای طراحی شیءگرا (Singleton، Strategy، Observer، Facade و الگوی معماری MVC)",
+        "بازآرایی کد (Refactoring) و نشانه‌های کد بد (Code Smells)",
+        "مدیریت استثناها، داده‌های عام (Generics) و فریم‌ورک مجموعه‌ها (Collections)",
+        "جویبارها و فایل‌ها، برنامه‌نویسی سوکت تحت شبکه، و مقدمه‌ای بر همروندی و Threadها"
+      ],
+      "recommended_readings": [
+        "P. Deitel, H. Deitel. Java: How to Program. 11th Edition, Pearson Education, 2017.",
+        "B. Eckel. Thinking in Java. 4th Edition, Prentice Hall, 2006.",
+        "M. Fowler, K. Beck, J. Brant, W. Opdyke, D. Roberts. Refactoring: Improving the Design of Existing Code. Addison-Wesley, 1999."
+      ]
+    },
+    {
+      "code": "40254",
+      "title": "ساختمان داده‌ها و الگوریتم‌ها (Data Structures and Algorithms)",
+      "credits": 3,
+      "topics": [
+        "تحلیل زمانی، پیچیدگی مجانبی و روش‌های تحلیل سرشکن (Amortized Analysis)",
+        "روش تقسیم و حل (Divide and Conquer) و قضیه اصلی (Master Theorem)",
+        "داده‌ساختارهای پایه: صف، پشته و لیست‌های پیوندی",
+        "داده‌ساختارهای درختی: درخت‌های دودویی جست‌وجو (BST)، ترای (Trie) و صف اولویت (Heap)",
+        "الگوریتم‌های مرتب‌سازی (هرمی، سریع، خطی، شمارشی و مبنایی)",
+        "جدول‌های درهم‌سازی (Hashing): زنجیره‌ای، باز و کامل",
+        "داده‌ساختارهای پیشرفته: درخت‌های قرمز-سیاه (Red-Black Trees)، مجموعه‌های مجزا و درخت بازه",
+        "مقدمات گراف: پیمایش‌های BFS و DFS، کوتاه‌ترین مسیر (Dijkstra و Bellman-Ford) و ترتیب توپولوژیکی"
+      ],
+      "recommended_readings": [
+        "T. Cormen, C. Leiserson, R. Rivest, and C. Stein. Introduction to Algorithms (CLRS). 3rd Edition, MIT Press, 2011.",
+        "محمد قدسی، «داده‌ساختارها و مبانی الگوریتم‌ها»، انتشارات فاطمی."
+      ]
+    },
+    {
+      "code": "40354",
+      "title": "طراحی الگوریتم‌ها (Design of Algorithms)",
+      "credits": 3,
+      "topics": [
+        "روش‌های استقرایی و تقسیم و حل پیشرفته (ضرب استراسن و تبدیل سریع فوریه FFT)",
+        "الگوریتم‌های حریصانه (کدگذاری هافمن، تطابق پایدار گیل-شاپلی، زمان‌بندی بازه‌ها)",
+        "برنامه‌ریزی پویا (Dynamic Programming): ضرب زنجیره‌ای ماتریس‌ها، کوله‌پشتی و تراز دنباله‌ها",
+        "جست‌وجوی فضای حالت: روش‌های پس‌گرد (Backtracking)، شاخه و حد (Branch and Bound)",
+        "الگوریتم‌های گراف پیشرفته: درخت فراگیر کمینه (Kruskal و Prim) و کوتاه‌ترین مسیرها (Floyd-Warshall و Johnson)",
+        "شبکه‌های شار (Network Flows): شار بیشینه و برش کمینه (Ford-Fulkerson و Edmonds-Karp)",
+        "برنامه‌ریزی خطی (Linear Programming) و الگوریتم سیمپلکس",
+        "نظریه پیچیدگی محاسباتی: رده NP، اثبات NP-Complete بودن و قضیه کوک",
+        "الگوریتم‌های تقریبی (Approximation Algorithms) برای مسائل سخت نظیر فروشنده دوره‌گرد و پوشش راسی"
+      ],
+      "recommended_readings": [
+        "J. Kleinberg and E. Tardos. Algorithm Design. Addison Wesley, 2005.",
+        "T. Cormen, C. Leiserson, R. Rivest, and C. Stein. Introduction to Algorithms. 3rd Edition, MIT Press, 2009.",
+        "U. Manber. Introduction to Algorithms: A Creative Approach. Addison-Wesley, 1989."
+      ]
+    },
+    {
+      "code": "40417",
+      "title": "هوش مصنوعی (Artificial Intelligence)",
+      "credits": 3,
+      "topics": [
+        "عامل‌های هوشمند (Intelligent Agents)",
+        "جست‌وجوی ناآگاهانه (BFS، DFS، Iterative Deepening، Uniform Cost Search)",
+        "جست‌وجوی آگاهانه و مکاشفه‌ای: الگوریتم *A، توابع ابتکاری قابل‌قبول و سازگار",
+        "جست‌وجوی محلی: Hill Climbing، Simulated Annealing و الگوریتم‌های ژنتیک",
+        "مسائل ارضای محدودیت (CSP): عقب‌گرد، تکنیک‌های MRV، LCV، Forward Checking و AC-3",
+        "جست‌وجوی مقابله‌ای (Adversarial Search): Minimax، هرس آلفا-بتا و Expectiminimax",
+        "فرایند تصمیم‌گیری مارکوف (MDP): تکرار ارزش (Value Iteration) و تکرار سیاست",
+        "یادگیری تقویتی (Reinforcement Learning): الگوریتم Q-Learning و تفاضل زمانی",
+        "منطق گزاره‌ای و مرتبه اول، استنتاج و روش‌های رزولوشن",
+        "شبکه‌های بیزین (Bayesian Networks): بازنمایی، استقلال، استنتاج دقیق و تقریبی، مدل پنهان مارکوف (HMM)",
+        "مقدمه‌ای بر یادگیری ماشین و شبکه‌های عصبی مصنوعی"
+      ],
+      "recommended_readings": [
+        "Stuart Russell and Peter Norvig. Artificial Intelligence: A Modern Approach (AIMA). 3rd/4th Edition, Pearson."
+      ]
+    },
+    {
+      "code": "40424",
+      "title": "سیستم‌های عامل (Operating Systems)",
+      "credits": 3,
+      "topics": [
+        "ساختار سیستم‌عامل، عملیات مد دوگانه (Dual-mode) و فراخوانی‌های سیستمی (System Calls)",
+        "مدیریت پردازه‌ها و ریسه‌ها (Threads)، بلوک کنترل پردازه (PCB) و ارتباط بین پردازه‌ها (IPC)",
+        "همروندی و همگام‌سازی: نواحی بحرانی، انحصار متقابل، قفل‌ها، سمافورها و مانیتورها",
+        "الگوریتم‌های زمان‌بندی پردازنده (FIFO، Round Robin، SJF، SRTF و زمان‌بندی بی‌درنگ)",
+        "مسئله بن‌بست (Deadlock): شرایط چهارگانه کافمن، پیشگیری، اجتناب و الگوریتم بانکدار",
+        "مدیریت حافظه فیزیکی و مجازی: صفحه‌بندی (Paging)، قطعه‌بندی (Segmentation)، TLB و خطای صفحه (Page Fault)",
+        "الگوریتم‌های جایگزینی صفحه (FIFO، LRU، Clock و Chance)",
+        "ساختار سیستم‌های ذخیره‌سازی، زمان‌بندی دیسک و معماری فایل‌سیستم‌ها (Unix File System و NTFS)",
+        "مفاهیم امنیت، حفاظت و ماشین‌های مجازی"
+      ],
+      "recommended_readings": [
+        "A. Silberschatz, P. B. Galvin, and G. Gagne. Operating System Concepts. 10th Edition, Wiley Publishing, 2018.",
+        "T. Anderson and M. Dahlin. Operating Systems: Principles and Practice. 2nd Edition, Recursive Books, 2014."
+      ]
+    },
+    {
+      "code": "40443",
+      "title": "شبکه‌های کامپیوتری (Computer Networks)",
+      "credits": 3,
+      "topics": [
+        "برنامه‌نویسی تحت سوکت و معماری لایه‌ای اینترنت",
+        "سوئیچینگ بسته و آدرس‌دهی و هدایت مبتنی بر پروتکل اینترنت (IP)",
+        "پروتکل‌های لایه انتقال: مکانیزم‌های اتصال و قابلیت اطمینان TCP و UDP",
+        "کنترل ازدحام (Congestion Control) و کنترل جریان",
+        "سرویس‌های ترجمه آدرس و مدیریت شبکه: DNS، DHCP، ARP و NAT",
+        "سوئیچ‌ها، پل‌ها و زیرساخت اتصالات فیزیکی/داده‌ای",
+        "پروتکل‌های مسیریابی: حالت اتصال (Link-State)، بردار فاصله (Distance Vector) و پروتکل بین‌دامنه‌ای BGP",
+        "شبکه‌های همتا-به-همتا (P2P)، توزیع محتوا (CDN) و شبکه‌های مبتنی بر نرم‌افزار (SDN)"
+      ],
+      "recommended_readings": [
+        "Larry L. Peterson and Bruce S. Davie. Computer Networks: A Systems Approach. 5th Edition, Morgan Kaufmann, 2011.",
+        "James F. Kurose and Keith W. Ross. Computer Networking: A Top-Down Approach. Pearson."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "simple-vcs-c",
+      "title": "سامانه کنترل نسخه خط فرمان به زبان سی (Mini VCS Engine)",
+      "stack": ["C", "POSIX File API", "Linux System Programming", "Data Structures"],
+      "summary": "طراحی و پیاده‌سازی یک موتور کنترل نسخه (VCS) مینیمال به زبان C مشابه سازوکار پایه‌ای گیت؛ شامل قابلیت‌های دنبال‌کردن تغییرات فایل‌ها (Tracking)، ایجاد اسنپ‌شات‌ها (Commit History)، مقایسه محتوای نسخه‌ها بر مبنای هش و ساختار درختی، و مدیریت فضای دایرکتوری با استفاده مستقیم از فراخوانی‌های سیستمی لینوکس.",
+      "readiness": "Completed"
+    },
+    {
+      "id": "gwent-card-game-java",
+      "title": "پیاده‌سازی بازی کارتی Gwent با جاوا و معماری شیءگرا",
+      "stack": ["Java", "OOP Principles", "Design Patterns (GoF)", "JavaFX / Swing GUI"],
+      "summary": "توسعه بازی رومیزی استراتژیک کارتی Gwent با استفاده از پارادایم شیءگرایی در جاوا؛ شامل پیاده‌سازی منطق صف‌آرایی کارت‌ها، اعمال افکت‌های آب‌وهوا و بوف‌های جادویی، پیاده‌سازی الگوهای طراحی نظیر Strategy و Observer برای رویدادهای بازی، و طراحی رابط کاربری تعاملی گرافیکی (GUI).",
+      "readiness": "Completed"
+    },
+    {
+      "id": "traffic-light-fsm",
+      "title": "شبیه‌ساز و مولد ماژول کنترلر چراغ راهنمایی با مدل مور (Moore FSM)",
+      "stack": ["Python", "Verilog HDL", "FSM Synthesis", "Bash"],
+      "summary": "توسعه اسکریپت خودکارسازی پایتون جهت تولید ماژول‌های سنتزپذیر Verilog کنترلر چراغ راهنمایی بر اساس مدل ماشین حالت متناهی مور، همراه با پیاده‌سازی شبیه‌ساز وضعیت تعاملی در ترمینال برای اعتبارسنجی تغییر فازها.",
+      "readiness": "Completed"
+    },
+    {
+      "id": "playstore-crawler",
+      "title": "پایپ‌لاین جمع‌آوری و پیش‌پردازش دوره‌ای نظرات پلی‌استور",
+      "stack": ["Python", "Pandas", "google-play-scraper", "Crontab", "Linux Automation"],
+      "summary": "خط لوله مکانیزه استخراج متادیتا و نظرات کاربران برای ۱۶ اپلیکیشن منتخب، به همراه پیش‌پردازش و تحلیل داده با کتابخانه Pandas و زمان‌بندی دوره‌ای منظم در بازه‌های ۸ ساعته توسط سرویس کران‌جاب لینوکس.",
+      "readiness": "Production"
+    },
+    {
+      "id": "dork-recon-service",
+      "title": "میکروسرویس ابری کانتینری شناسایی دامنه",
+      "stack": ["Docker", "Python", "FastAPI", "OpenSERP", "Microservices"],
+      "summary": "پیاده‌سازی یک میکروسرویس داکرایز شده با یکپارچه‌سازی ابزار جست‌وجوی OpenSERP جهت استعلام خودکار مشخصات دامنه، بازرسی امنیتی و تشخیص دسته‌بندی فایروال به صورت کاملاً خودکار.",
+      "readiness": "Active"
+    }
+  ],
+  "limits_and_guardrails": {
+    "strictly_prohibited_topics": [
+      "نمرات تحصیلی، معدل کل، کارنامه و رتبه‌های کلاسی",
+      "اطلاعات مالی، حقوق، دستمزد دریافتی و مبالغ قراردادهای کاری",
+      "اطلاعات تماس مستقیم شخصی نظیر شماره موبایل یا آدرس دقیق پستی منزل",
+      "هرگونه بیانیه رسمی، موضع‌گیری حقوقی یا صحبت از جانب دانشگاه صنعتی شریف"
+    ],
+    "visibility_matrix": {
+      "personal_info": "public",
+      "courses": "public",
+      "projects": "public",
+      "recommended_readings": "public",
+      "gpa": "private_forbidden",
+      "grades": "private_forbidden",
+      "phone_number": "private_forbidden",
+      "salary": "private_forbidden",
+      "official_sharif_endorsement": "private_forbidden"
+    }
+  }
+}

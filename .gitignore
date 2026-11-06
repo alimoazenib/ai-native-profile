@@ -1,0 +1,19 @@
+# Virtual environments
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets (هرگز این پوش نشود)
+.env
+
+# System & IDE files
+.DS_Store
+.idea/
+.vscode/
+
+# Build & container logs
+*.log
